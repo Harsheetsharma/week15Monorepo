@@ -4,7 +4,7 @@ const app = express();
 console.log(BACKEND_URL);
 app.get("/", (req, res) => {
     res.json({
-        messgae: "welcome"
+        messgae: "welcome to turborepo"
     })
 })
 
